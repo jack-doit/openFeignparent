@@ -22,4 +22,8 @@ public class ServiceImpl {
         String result = memberService.getUser(1);
         return "我是订单服务调用会员服务的接口,返回结果" + result;
     }
+    @RequestMapping("/hello")
+    public String test() {
+        return "hello";
+    }
 }

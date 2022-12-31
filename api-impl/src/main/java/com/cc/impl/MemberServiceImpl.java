@@ -13,7 +13,7 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public String getUser(Integer userId) {
-        return "我是会员服务" + userId;
+        return "我是会员服务" + serverPort;
     }
 
 }

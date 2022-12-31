@@ -11,6 +11,7 @@
     <module>provider-api</module>
     <module>api-impl</module>
       <module>con-api</module>
+    <module>gateway</module>
   </modules>
   <packaging>pom</packaging>
 
